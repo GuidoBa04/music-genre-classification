@@ -1,13 +1,23 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+.venv/
+env/
 
-# Données volumineuses
+# Données (On ne commit JAMAIS les données brutes ou processées)
 data/raw/
 data/processed/
+# On garde metadata si les csv ne sont pas trop gros, sinon :
+data/metadata/
 
-# Environnement virtuel
-venv/
+# Modèles (Trop lourds généralement)
+*.pth
+*.pt
 
-# Notebooks checkpoints
-.ipynb_checkpoints/
+# IDE
+.vscode/
+.idea/
+
+# Système
+.DS_Store
+Thumbs.db
