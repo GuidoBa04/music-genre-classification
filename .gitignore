@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Données volumineuses
+data/raw/
+data/processed/
+
+# Environnement virtuel
+venv/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
